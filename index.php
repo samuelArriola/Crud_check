@@ -9,10 +9,11 @@
     <title>Produtc</title>
 </head>
 <body>
+    <a href="tabla.php">Tabla</a>
     <div class="container  section">
         <table class="container responsive-table  ">
-            <thead class="pink lighten-4">
-                <tr>
+            <thead >
+                <tr class="pink lighten-4">
                     
                     <th>Id</th>
                     <th>Nombre</th>
@@ -21,6 +22,21 @@
                         <p>
                             <label>
                                 <input type="checkbox" class="filled-in" id="selectAll" />
+                                <span>
+                                </span>
+                            </label>
+                        </p>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>	
+                    <th class=" center">
+                        <p>
+                            <label>
+                              
                                 <span>
                                 <button id="someDelete" type="buttom" style="background: none; border:none" class="hoverable red-text"><i class=" material-icons " >delete</i></button>
 
@@ -36,9 +52,9 @@
                 <th>
                 </th>
                 <th class=" center">
-                    <button id="someDelete" type="buttom" style="background: none; border:none" class="hoverable red-text"><i class=" material-icons " >delete</i></button>
-                   
+                    <button id="someDelete" type="buttom" style="background: none; border:none" class="hoverable red-text"><i class=" material-icons " >delete</i></button>  
                 </th>
+
                 <template id="templatePrduct">
                     <tr>
                     <th></th>

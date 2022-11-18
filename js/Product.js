@@ -79,10 +79,7 @@ $('#someDelete').on('click', () => {
                 // M.toast({ html: response });
                 
             }
-        })
-
-        // ejecutarAjax("dataBase/DeleteProduct.php", { checked }, res => console.log(res) )
-        
+        }) 
 })
 
 //SELECT ALL
